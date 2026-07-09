@@ -13,6 +13,7 @@ function isSurpriseNumber(value) {
 }
 
 function generateNumber() {
+    //generate a random number between 00 and 99
     const value = Math.floor(Math.random() * 100); //generate a random number between 00 and 99
     display.textContent = formatNumber(value); //format number to two digits and display it
     display.classList.toggle("surprise", isSurpriseNumber(value)); //toggle surprise class if the number is 67 (6-7) (6 7)
@@ -25,5 +26,5 @@ function generateNumber() {
     }
 }
 
-button.addEventListener("click", generateNumber);
-generateNumber();
+button.addEventListener("click", generateNumber); //add event listener to the button to generate a new number when clicked
+generateNumber(); //generate a number on page load
