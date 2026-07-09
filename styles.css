@@ -1,8 +1,10 @@
 :root {
+    /*root styles*/
     color-scheme: dark;
 }
 
 body {
+    /*body styles*/
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(135deg, #1f1c2c, #928dab);
@@ -13,6 +15,7 @@ body {
 }
 
 .card {
+    /*card styles*/
     background: rgba(0, 0, 0, 0.25);
     padding: 2rem;
     border-radius: 1.25rem;
@@ -22,16 +25,19 @@ body {
 }
 
 h1 {
+    /*heading styles*/
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
 }
 
 p {
+    /*paragraph styles*/
     margin: 0.5rem 0;
 }
 
 .number {
+    /*number styles*/
     font-size: 4rem;
     font-weight: 700;
     letter-spacing: 0.2rem;
@@ -39,11 +45,13 @@ p {
 }
 
 .number.surprise {
+    /*surprise number styles*/
     color: #ffd54f;
     text-shadow: 0 0 12px rgba(255, 213, 79, 0.7);
 }
 
 button {
+    /*button styles*/
     margin-top: 1rem;
     border: none;
     border-radius: 999px;
@@ -56,5 +64,6 @@ button {
 }
 
 button:hover {
+    /*button hover styles*/
     transform: translateY(-1px);
 }
