@@ -1,6 +1,6 @@
-const display = document.getElementById("numberDisplay"); //number display element
+const display = document.getElementById("number-display"); //number display element
 const message = document.getElementById("message"); //message display element
-const button = document.getElementById("generateBtn"); //generate button element
+const button = document.getElementById("generate-btn"); //generate button element
 
 function formatNumber(value) {
     //format number to two digits
