@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"],"fields":{"title":{"boost":1000.0},"text":{"boost":1.0},"tags":{"boost":1000000.0}}},"docs":[{"location":"","title":"Surprise Random 2-Digit Number Generator","text":"<p>A simple web application that generates random 2-digit numbers from 00 to 99 with a chance to see a surprise number.</p>"}]}
