@@ -1,0 +1,12 @@
+{
+    "name": "surprise-random-2digit-number-generator",
+    "version": "1.0.0",
+    "description": "A simple web app that generates random two-digit numbers and highlights a surprise number.",
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "jest-environment-jsdom": "^30.4.1"
+    }
+}
