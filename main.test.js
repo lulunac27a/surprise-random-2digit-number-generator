@@ -70,6 +70,8 @@ describe("DOM integration", () => {
         expect(value).toBeGreaterThanOrEqual(0);
         expect(value).toBeLessThan(100);
         expect(display.textContent).toBe(value.toString().padStart(2, "0"));
-        expect(message.textContent).toMatch(/(Surprise! 6-7, 6, 7|A new number is ready\.)/);
+        expect(message.textContent).toMatch(
+            /(Surprise! 6-7, 6, 7|A new number is ready\.)/,
+        );
     });
 });
