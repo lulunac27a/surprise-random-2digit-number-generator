@@ -29,7 +29,7 @@ function isSurpriseNumber(value) {
 function surpriseMessage(value) {
     return isSurpriseNumber(value)
         ? "Surprise! 6-7, 6, 7"
-        : "A new number is ready."; //display message if the number is 67 (surprise 6-7)
+        : "A new number is ready."; //display surprise message if the number is 67 (surprise 6-7)
 }
 
 function updateDisplay(formattedValue, surprise) {
